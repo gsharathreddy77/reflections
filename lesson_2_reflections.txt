@@ -5,3 +5,16 @@ A hidden directory named .git will be created which stores the meta data of the 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area helps to create our own first commit. It helps us to track which files are actually taken inside the tracking system. Repository contains files which are committed. Working directory contains all the files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add each logical change one after the other to the staging area, even if there are many, and make a seperate commit for each one.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If you want to have some experimental code then a brach would be helpful. 
+master branch never breaks
+one development branch
+one experimental branch
+
+How do the diagrams help you visualize the branch structure?
+It keeps the entire history of commits and brsnches. Our current position.
+
